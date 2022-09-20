@@ -718,6 +718,25 @@ footer span a:hover {
     width: 100%;
     text-align: center;
   }
+  #projects .item .left .image{
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #00000028;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  #projects .item .right{
+    flex: 1;
+    margin-left: -50px;
+    margin-right: 20px;
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #00000028;
+    z-index: 2;
+  }
 }
 @media screen and (max-width: 950px) {
   .skills .skills-content img {
